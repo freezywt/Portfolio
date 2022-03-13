@@ -8,7 +8,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://cdn.discordapp.com/attachments/910528531354771467/952355707007680532/freezy.pdf";
+  "https://raw.githubusercontent.com/freezywt/Portfolio/main/src/Assets/freezy.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
