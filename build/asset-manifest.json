@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2bbff901.chunk.css",
+    "main.js": "/static/js/main.4facc249.chunk.js",
+    "main.js.map": "/static/js/main.4facc249.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c754af3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c754af3.js.map",
+    "static/css/2.ce4436cb.chunk.css": "/static/css/2.ce4436cb.chunk.css",
+    "static/js/2.a1285ddf.chunk.js": "/static/js/2.a1285ddf.chunk.js",
+    "static/js/2.a1285ddf.chunk.js.map": "/static/js/2.a1285ddf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ce4436cb.chunk.css.map": "/static/css/2.ce4436cb.chunk.css.map",
+    "static/css/main.2bbff901.chunk.css.map": "/static/css/main.2bbff901.chunk.css.map",
+    "static/js/2.a1285ddf.chunk.js.LICENSE.txt": "/static/js/2.a1285ddf.chunk.js.LICENSE.txt",
+    "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
+    "static/media/avatar.9c500586.jpg": "/static/media/avatar.9c500586.jpg",
+    "static/media/batery.b9b1be8c.png": "/static/media/batery.b9b1be8c.png",
+    "static/media/cep-search.9939a728.png": "/static/media/cep-search.9939a728.png",
+    "static/media/codeflix.f38385c3.png": "/static/media/codeflix.f38385c3.png",
+    "static/media/currency-converter.5bdb2601.png": "/static/media/currency-converter.5bdb2601.png",
+    "static/media/discord-clone-nodejs.ca9c6660.png": "/static/media/discord-clone-nodejs.ca9c6660.png",
+    "static/media/financas.6018ae41.png": "/static/media/financas.6018ae41.png",
+    "static/media/freezy.b7652d16.pdf": "/static/media/freezy.b7652d16.pdf",
+    "static/media/home-main.e22727a6.png": "/static/media/home-main.e22727a6.png",
+    "static/media/html-landing-page.cecbdfd3.png": "/static/media/html-landing-page.cecbdfd3.png",
+    "static/media/keyboard-test.503c1424.png": "/static/media/keyboard-test.503c1424.png",
+    "static/media/market-list-react.a54ae0a7.png": "/static/media/market-list-react.a54ae0a7.png",
+    "static/media/payme.8a3d2037.png": "/static/media/payme.8a3d2037.png",
+    "static/media/react-js-landing-page.551d506a.png": "/static/media/react-js-landing-page.551d506a.png",
+    "static/media/react-task-list.687230b7.png": "/static/media/react-task-list.687230b7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c754af3.js",
+    "static/css/2.ce4436cb.chunk.css",
+    "static/js/2.a1285ddf.chunk.js",
+    "static/css/main.2bbff901.chunk.css",
+    "static/js/main.4facc249.chunk.js"
+  ]
+}
