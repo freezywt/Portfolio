@@ -30,6 +30,7 @@ function Projects() {
             <ProjectCard
               imgPath={Batery}
               title="Batery"
+              tags="#html #js #css"
               link="https://github.com/freezywt/Batery"
             />
           </Col>
@@ -38,6 +39,7 @@ function Projects() {
             <ProjectCard
               imgPath={CepSearch}
               title="Cep Search"
+              tags="#rn #js"
               link="https://github.com/freezywt/BuscadorDeCep"
             />
           </Col>
@@ -46,6 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={Codeflix}
               title="CodeFlix"
+              tags="#ts #js #html"
               link="https://github.com/freezywt/Netflix-Clone"
             />
           </Col>
@@ -54,6 +57,7 @@ function Projects() {
             <ProjectCard
               imgPath={CurrencyConverter}
               title="Currency Converter"
+              tags="#rn #js"
               link="https://github.com/freezywt/Conversor-De-Moedas"
             />
           </Col>
@@ -62,6 +66,7 @@ function Projects() {
             <ProjectCard
               imgPath={DiscordClone}
               title="Discord Clone"
+              tags="#njs #js #css #html"
               link="https://github.com/freezywt/chatnode"
             />
           </Col>
@@ -70,6 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={Financas}
               title="Financas"
+              tags="#js #rjs"
               link="https://github.com/freezywt/Financas"
             />
           </Col>
@@ -78,6 +84,7 @@ function Projects() {
             <ProjectCard
               imgPath={HtmlLandingPage}
               title="HtmlLandingPage"
+              tags="#html #css"
               link="https://github.com/freezywt/landing-page-html5"
             />
           </Col>
@@ -86,6 +93,7 @@ function Projects() {
             <ProjectCard
               imgPath={KeyboardTest}
               title="KeyboardTest"
+              tags="#html #css #js"
               link="https://github.com/freezywt/KeyBoard-Test"
             />
           </Col>
@@ -93,8 +101,9 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MarketList}
+              imgPath={MarketList}      
               title="MarketList"
+              tags="#rn #js"
               link="https://github.com/freezywt/Market-List"
             />
           </Col>
@@ -103,6 +112,7 @@ function Projects() {
             <ProjectCard
               imgPath={Payme}
               title="Payme"
+              tags="#rn #js"
               link="https://github.com/freezywt/payme"
             />
           </Col>
@@ -111,6 +121,7 @@ function Projects() {
             <ProjectCard
               imgPath={ReactJsLandingPage}
               title="ReactJsLandingPage"
+              tags="#rjs #js"
               link="https://github.com/freezywt/first-landing-page"
             />
           </Col>
@@ -119,6 +130,7 @@ function Projects() {
             <ProjectCard
               imgPath={TaskList}
               title="TaskList"
+              tags="#rn #js"
               link="https://github.com/freezywt/tasks"
             />
           </Col>

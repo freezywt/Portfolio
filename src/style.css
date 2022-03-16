@@ -496,6 +496,13 @@ html {
   outline: none !important;
   box-shadow: none !important;
 }
+
+.button-tags {
+ font-size: 12px !important;
+ background-color: #dff2f0 !important;
+ border-radius: 20px !important;
+}
+
 .project-heading {
   color: var(--text-color)  !important;
   font-size: 2.3em !important;

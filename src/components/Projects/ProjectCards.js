@@ -27,6 +27,7 @@ function ProjectCards(props) {
         <FavoriteIcon />
       </IconButton>
       <Button size="small" href={props.link}>Github</Button>
+      <Button className="button-tags">{props.tags}</Button>
     </CardActions>
     </Card>
   );
