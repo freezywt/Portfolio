@@ -11,6 +11,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
+import notfound from "./components/404";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/project" exact component={Projects} />
           <Route path="/about" exact component={About} />
           <Route path="/resume" exact component={Resume} />
+          <Route path="*" component={notfound} />
           <Redirect to="/" />
         </Switch>
         <Footer />
