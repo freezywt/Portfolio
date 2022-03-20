@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
@@ -27,8 +30,12 @@ function Resume() {
       });
   }, []);
 
+  useEffect(() => {
+   Aos.init({duration: 2000});
+  }, []);
+
   return (
-    <Container fluid className="resume-section">
+    <Container fluid className="resume-section" data-aos="fade-down">
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">

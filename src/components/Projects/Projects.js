@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
@@ -16,8 +19,13 @@ import ReactJsLandingPage from '../../Assets/Projects/react-js-landing-page.png'
 import TaskList from '../../Assets/Projects/react-task-list.png';
 
 function Projects() {
+
+  useEffect(() => {
+   Aos.init({duration: 2000});
+  }, []);
+
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" data-aos="fade-down">
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
