@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
 import Batery from '../../Assets/Projects/batery.png';
+import Forkify from '../../Assets/Projects/forkify.png';
 import CepSearch from '../../Assets/Projects/cep-search.png';
 import Codeflix from '../../Assets/Projects/codeflix.png';
 import CurrencyConverter from '../../Assets/Projects/currency-converter.png';
@@ -33,7 +34,18 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+         
+         <Col md={4} className="project-card">
+          <ProjectCard
+                imgPath={Forkify}
+                title="Forkify"
+                tags="#html #js #css #njs"
+                link="https://github.com/freezywt/forkify"
+              />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Batery}
