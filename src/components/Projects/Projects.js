@@ -16,6 +16,8 @@ import HtmlLandingPage from '../../Assets/Projects/html-landing-page.png';
 import KeyboardTest from '../../Assets/Projects/keyboard-test.png';
 import MarketList from '../../Assets/Projects/market-list-react.png';
 import Payme from '../../Assets/Projects/payme.png';
+import Hogwarts from '../../Assets/Projects/hogwars.png';
+import WhiteListBooks from '../../Assets/Projects/white-list-books.png';
 import ReactJsLandingPage from '../../Assets/Projects/react-js-landing-page.png';
 import TaskList from '../../Assets/Projects/react-task-list.png';
 
@@ -36,6 +38,24 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+          <ProjectCard
+                imgPath={Forkify}
+                title="Books-Register-App"
+                tags="#rn #js #sc"
+                link="https://github.com/freezywt/Books-Register-App"
+              />
+          </Col>
+
+        <Col md={4} className="project-card">
+          <ProjectCard
+                imgPath={Forkify}
+                title="Hogwarts"
+                tags="#rn #js"
+                link="https://github.com/freezywt/Hogwarts"
+              />
+          </Col>
          
          <Col md={4} className="project-card">
           <ProjectCard
