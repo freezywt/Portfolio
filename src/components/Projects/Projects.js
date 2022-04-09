@@ -41,7 +41,7 @@ function Projects() {
 
         <Col md={4} className="project-card">
           <ProjectCard
-                imgPath={Forkify}
+                imgPath={WhiteListBooks}
                 title="Books-Register-App"
                 tags="#rn #js #sc"
                 link="https://github.com/freezywt/Books-Register-App"
@@ -50,7 +50,7 @@ function Projects() {
 
         <Col md={4} className="project-card">
           <ProjectCard
-                imgPath={Forkify}
+                imgPath={Hogwarts}
                 title="Hogwarts"
                 tags="#rn #js"
                 link="https://github.com/freezywt/Hogwarts"
