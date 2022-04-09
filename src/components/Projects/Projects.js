@@ -16,7 +16,7 @@ import HtmlLandingPage from '../../Assets/Projects/html-landing-page.png';
 import KeyboardTest from '../../Assets/Projects/keyboard-test.png';
 import MarketList from '../../Assets/Projects/market-list-react.png';
 import Payme from '../../Assets/Projects/payme.png';
-import Hogwarts from '../../Assets/Projects/hogwars.png';
+import Hogwarts from '../../Assets/Projects/hogwarts.png';
 import WhiteListBooks from '../../Assets/Projects/white-list-books.png';
 import ReactJsLandingPage from '../../Assets/Projects/react-js-landing-page.png';
 import TaskList from '../../Assets/Projects/react-task-list.png';
