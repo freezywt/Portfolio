@@ -1695,6 +1695,18 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@splinetool/react-spline@^2.0.0":
+  "integrity" "sha512-lfB18x1/o75v81Sw6aGP2x0amFb7iYN/J06aJ7k5tit8IfGQ2a+QFO18Bd3g/RjvBLQqRJhh8KTVwFGqTSIxqQ=="
+  "resolved" "https://registry.npmjs.org/@splinetool/react-spline/-/react-spline-2.0.0.tgz"
+  "version" "2.0.0"
+
+"@splinetool/runtime@*", "@splinetool/runtime@^0.9.29":
+  "integrity" "sha512-Fr3uRmF+rWiwpQ/ALeYTzo5ccm7rrDx0lNfTn31XNli7Dd/9YxXOkTwZ4ZjacjYpnjHEgDDNit6YVFirtjtTMw=="
+  "resolved" "https://registry.npmjs.org/@splinetool/runtime/-/runtime-0.9.29.tgz"
+  "version" "0.9.29"
+  dependencies:
+    "on-change" "^4.0.0"
+
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   "integrity" "sha512-yBMPqmd1yEJo/280PAMkychuaALyQ9Lkb5q1ck3mjJrFuEobIfhnQ4J3mbvBoISmR3SWMWV+cGB/I0lCQee79A=="
   "resolved" "https://registry.npmjs.org/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-1.4.2.tgz"
@@ -8322,6 +8334,11 @@
   "integrity" "sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg=="
   "resolved" "https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz"
   "version" "1.1.2"
+
+"on-change@^4.0.0":
+  "integrity" "sha512-PTu7C9Jsz4b+sNMDpH0eZFTr7uxdOtoDWRnhaVNK50bgrrnW5nvbWI0jm5DG9qOoTnIhBzE9xoKVFPD9xgtbdg=="
+  "resolved" "https://registry.npmjs.org/on-change/-/on-change-4.0.0.tgz"
+  "version" "4.0.0"
 
 "on-finished@~2.3.0":
   "integrity" "sha1-IPEzZIGwg811M3mSoWlxqi2QaUc="

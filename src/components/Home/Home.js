@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import Spline from '@splinetool/react-spline';
+
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.png";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -19,7 +20,7 @@ function Home() {
         <Container className="home-content">
           <Row>
           <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+           <Spline className="img-fluid logo-home" scene="https://draft.spline.design/ownAVKTnQWzvb-rS/scene.spline" />
             </Col>
 
             <Col md={7} className="home-header">
