@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import Button from '@mui/material/Button';
 import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function ProjectCards(props) {
   return (
@@ -26,7 +27,11 @@ function ProjectCards(props) {
       <IconButton aria-label="add to favorites">
         <FavoriteIcon />
       </IconButton>
-      <Button size="small" href={props.link}>Github</Button>
+      <Button className="no-hover-btn"size="small" href={props.link}>
+      <IconButton aria-label="github">
+         <GitHubIcon />
+       </IconButton>
+      </Button>
       <Button className="button-tags">{props.tags}</Button>
     </CardActions>
     </Card>

@@ -88,15 +88,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://discord.gg/5CQnMBX2Rp"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                  Discord
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

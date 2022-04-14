@@ -16,6 +16,10 @@ html {
   color: var(--color-primary) !important;
 }
 
+.no-hover-btn:hover {
+ background-color: transparent !important;
+}
+
 /* --------- */
 /*Scrollbar   */
 /* --------- */
@@ -47,8 +51,6 @@ html {
 .sticky {
   background-color: var(--color-background) !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
@@ -56,7 +58,6 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  border-bottom: 1px solid #f0f0f0;
 }
 
 .navbar-toggler {
@@ -147,70 +148,67 @@ html {
 }
 
 .navbar-nav .nav-item {
-  position: relative;
-  margin-left: 20px;
+ position: relative;
+ margin-left: 20px;
 }
 
 .navbar-nav .nav-item a {
-  font-weight: 400;
-  transition: all 0.3s ease-out 0s;
-  position: relative;
-  z-index: 1;
+ font-weight: 400;
+ transition: all 0.3s ease-out 0s;
+ position: relative;
+ z-index: 1;
 }
 
-.navbar-nav .nav-item a:hover {
-  background-color: var(--color-primary);
-  border-radius: 0.25rem;
-  color: var(--color-background) !important;
+.navbar-nav .nav-item a::after {
+ content: '';
+ height: 6px;
+ width: 6px;
+ border-radius: 6px;
+ background: #42C2FF;
+ position: absolute;
+ bottom: 0px;
+ left: 50%;
+ right: 50%;
+ margin: 0 auto;
+ opacity: 0;
+ transition: all .2s ease-in-out;
+}
+
+.navbar-nav .nav-item a:hover::after {
+ opacity: 1;
+ transform: translateY(6px);
 }
 
 /* --------- */
 /* Home section */
 /* --------- */
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
+
+@media (max-width: 767px) {
+ .Banner-img {
+  max-width: 312px !important;
+  max-height: 312px !important;
+ }
 }
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
+.Banner-Container {
+ padding-bottom: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
 }
+
+.Banner-img {
+ max-width: 512px;
+ max-height: 512px;
+}
+
 .home-header {
   padding-top: 80px !important;
 }
 
-.logo-home {
- 
-}
-
 .home-section {
- /* position: relative; */
+  position: relative;
   z-index: -1;
   background-image: var(--color-background);
   background-position: top center;
@@ -284,14 +282,24 @@ html {
 }
 
 .home-about-description {
-  color: var(--text-color) !important;
-  padding-top: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #F0F0F0;
+  box-shadow: -7px 7px 0px 0px #42C2FF;
+  color: #000 !important;
   padding-bottom: 20px !important;
   text-align: center;
+  transition: all 0.3s ease-out 0s;
+}
+
+.home-about-description:hover {
+ box-shadow: -10px 10px 0px 0px #42C2FF;
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding: 20px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -362,8 +370,7 @@ html {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: var(--color-background);
-  border-top: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
   color: var(--text-color);
   bottom: 0 !important;
   padding-top: 10px !important;
@@ -747,7 +754,7 @@ html {
 }
 
 .contact-form label {
- font-size: 14px;
+ font-size: 17px;
  font-weight: 600;
 }
 

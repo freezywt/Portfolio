@@ -23,7 +23,7 @@ function Contact() {
            <Row>
            <Col md={12} style={{ textAlign: 'left'}}>
             <h2 style={{ color: '#0B0C2C', fontWeight: 'bold', marginBottom: 25}}>Now, about your project...</h2>
-            <p style={{fontSize: '14px', color: '#aedfe8', fontWeight: 'bold'}}>Before we trade, let me know your name and email.So that I can help you. </p>
+            <p style={{fontSize: '14px', fontWeight: 'bold'}}>Before we trade, let me know your name and email.So that I can help you. </p>
            </Col>
 
 
@@ -43,7 +43,7 @@ function Contact() {
               </div>
              </div>
 
-             <p style={{fontSize: '14px', color: '#aedfe8', fontWeight: 'bold', marginTop: 20}}>Now select the type of project you are going to acquire</p>
+             <p style={{fontSize: '14px', fontWeight: 'bold', marginTop: 20}}>Now select the type of project you are going to acquire</p>
              <div className="contact-projects-list">
               <div className="inputGroup">
                 <input id="FrontEnd" name="FrontEnd" type="checkbox"/>
@@ -65,7 +65,7 @@ function Contact() {
              </Col>
 
              <Col md={3} className="message-form">
-              <p style={{fontSize: '14px', color: '#aedfe8', fontWeight: 'bold'}}>tell us a little about what you need in your project </p>
+              <p style={{fontSize: '14px', fontWeight: 'bold'}}>tell us a little about what you need in your project </p>
               <div style={{marginTop: 30}}>
                 <p style={{fontSize: '12px', color: '#131313', fontWeight: 'bold'}}>what do you need? </p>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
